@@ -987,14 +987,20 @@ body, html {
 }
 /* Mobile adjustments */
 @media (max-width: 600px) {
-
+/* Home Section */
   /* Navbar adjustments */
   .navlinks {
-    display: none; /* Hide navlinks */
+    display: none;
+    flex-direction: column; 
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
   }
 
   nav .togglebtn {
-    display: block; /* Display the hamburger menu */
+    display: block;
   }
 
   nav .navlinks.open {
@@ -1013,8 +1019,10 @@ body, html {
     text-align: center;
     margin: 10px 0;
   }
+     .navlinks.open {
+    display: flex; 
+  }
 
-  /* Hero Section adjustments */
   .hero-text h1 {
     font-size: 2rem;
   }
@@ -1037,7 +1045,7 @@ body, html {
     padding: 20px 0;
   }
 
-  /* About Section adjustments */
+  /* About Section */
   .about-wrapper {
     flex-direction: column;
     padding: 10px;
@@ -1055,7 +1063,7 @@ body, html {
     font-size: 0.9rem;
   }
 
-  /* Education Section adjustments */
+  /* Education Section */
   #education .education-item {
     max-width: 100%;
   }
@@ -1068,7 +1076,7 @@ body, html {
     font-size: 0.9rem;
   }
 
-  /* Projects Section adjustments */
+  /* Projects Section */
   .card {
     height: auto;
     width: 100%;
@@ -1083,7 +1091,7 @@ body, html {
     font-size: 1rem;
   }
 
-  /* Contact Section adjustments */
+  /* Contact Section */
   .contact-us-section .container {
     flex-direction: column;
     padding: 10px;
