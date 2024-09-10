@@ -17,3 +17,8 @@ $(document).ready(function() {
         });
     });
 });
+  function toggleMenu() {
+    var navlinks = document.querySelector('.navlinks');
+    navlinks.classList.toggle('open'); 
+  }
+
