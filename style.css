@@ -1063,50 +1063,5 @@ body, html {
     font-size: 0.9rem;
   }
 
-  /* Education Section */
-  #education .education-item {
-    max-width: 100%;
-  }
 
-  #education .education-item h3 {
-    font-size: 1.2rem;
-  }
-
-  #education .education-item p {
-    font-size: 0.9rem;
-  }
-
-  /* Projects Section */
-  .card {
-    height: auto;
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  .card-title {
-    font-size: 1.2rem;
-  }
-
-  .card-text {
-    font-size: 1rem;
-  }
-
-  /* Contact Section */
-  .contact-us-section .container {
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .contact-form {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .contact-heading {
-    font-size: 1.5rem;
-  }
-
-  .contact-subheading {
-    font-size: 1rem;
-  }
 }
