@@ -1004,7 +1004,9 @@ body, html {
   }
 
   nav .navlinks.open {
-    display: block;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
     position: absolute;
     top: 100px;
     right: 0;
