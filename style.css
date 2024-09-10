@@ -985,3 +985,135 @@ body, html {
     margin: 0;
     padding: 0;
 }
+/* Mobile adjustments */
+@media (max-width: 600px) {
+
+  /* Navbar adjustments */
+  .navlinks {
+    display: none; /* Hide navlinks */
+  }
+
+  nav .togglebtn {
+    display: block; /* Display the hamburger menu */
+  }
+
+  nav .navlinks.open {
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: #222;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+  }
+
+  nav .navlinks li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  /* Hero Section adjustments */
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h5 {
+    font-size: 1rem;
+  }
+
+  .hero-pic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding-top: 5rem;
+  }
+
+  .hero-text {
+    padding: 20px 0;
+  }
+
+  /* About Section adjustments */
+  .about-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .about-left, .about-right {
+    padding: 10px;
+  }
+
+  .about-right h1 {
+    font-size: 2rem;
+  }
+
+  .about-para p {
+    font-size: 0.9rem;
+  }
+
+  /* Education Section adjustments */
+  #education .education-item {
+    max-width: 100%;
+  }
+
+  #education .education-item h3 {
+    font-size: 1.2rem;
+  }
+
+  #education .education-item p {
+    font-size: 0.9rem;
+  }
+
+  /* Skills Section adjustments */
+  .circular_progress .responsive-cell-block {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .circular_progress .circlechart {
+    width: 150px;
+    height: 150px;
+  }
+
+  .circular_progress .text-blk.card-head {
+    font-size: 18px;
+  }
+
+  /* Projects Section adjustments */
+  .card {
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  /* Contact Section adjustments */
+  .contact-us-section .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .contact-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-heading {
+    font-size: 1.5rem;
+  }
+
+  .contact-subheading {
+    font-size: 1rem;
+  }
+}
