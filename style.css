@@ -1068,21 +1068,6 @@ body, html {
     font-size: 0.9rem;
   }
 
-  /* Skills Section adjustments */
-  .circular_progress .responsive-cell-block {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .circular_progress .circlechart {
-    width: 150px;
-    height: 150px;
-  }
-
-  .circular_progress .text-blk.card-head {
-    font-size: 18px;
-  }
-
   /* Projects Section adjustments */
   .card {
     height: auto;
