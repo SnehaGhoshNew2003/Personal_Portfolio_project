@@ -79,7 +79,7 @@ nav .togglebtn{
     width: 35px;
     height: 35px;
     position: absolute;
-    top:30px;
+    top:20px;
     right: 10%;
     z-index: 5;
     cursor: pointer;
